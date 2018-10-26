@@ -1,0 +1,95 @@
+.canvas{
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: none;
+
+  }
+  
+  #house{
+    left: 5%;
+    position: absolute;
+    overflow: hidden;
+    padding: 10%;
+    margin: auto;
+    
+}
+
+
+.roof {
+    width: 0; 
+    height: 0; 
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid red;
+    display: block;
+    margin: 0;
+    position: relative;
+
+}
+
+.chimney{
+    background-color: black;
+    width:25px;
+    height: 65px;
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left: 65px;
+    z-index: -1;
+   
+}
+
+
+.houseBody{
+    background-color: #FDA76A;
+    width:200px;
+    height: 210px;
+    position: relative;
+    left: 50px;
+
+}
+
+
+.door{
+    background-color: brown;
+    width: 65px;
+    height: 100px;
+    position: absolute;
+    left: 115px;
+    top: 110px;
+    border-radius: 50% 50% 0 0;
+
+}
+
+.knob{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 50px;
+    top: 55px;
+    border-radius: 50%;
+
+}
+
+.glass{
+    background-color: lightblue;
+    width:25px;
+    height: 25px;
+    margin: 1px;
+    display: inline-block;
+    
+}
+
+.houseWindow{
+    /* тук уместно ли е да се използва това? --> 
+    display: table;
+    */
+    border-collapse: collapse;
+    background: darkslategray;
+    margin: 21px;
+    float: left;    
+}
